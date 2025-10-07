@@ -599,7 +599,7 @@ body{
    
     
 }
-@media(max-width:390px){
+@media(max-width:412px){
      .box{
         justify-content: center;
         width: 80vw;
