@@ -30,7 +30,7 @@ body{
 
 .wrapper{
     width:100vw;
-    height:1617px;
+    height:auto;
     display: flex;
     flex-direction: column;
 }
@@ -453,10 +453,10 @@ body{
 #site-footer{
     background-color: var(--head-foot-bg);
     width: 100vw;
-    height: 709px;
+    height:709px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     
 }
 #services{
@@ -588,6 +588,9 @@ body{
         justify-content: center;
         align-items: center;
     }
+    #site-footer{
+        height: 1200px;
+    }
    
     
 }
@@ -597,6 +600,10 @@ body{
         width: 80vw;
 
     }
+    #site-footer{
+        height: 2200px;
+    }
+
 
 }
 
