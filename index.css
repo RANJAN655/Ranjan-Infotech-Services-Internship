@@ -30,9 +30,7 @@ body{
 
 .wrapper{
     width:100vw;
-    min-height: 1617px;
-    height: auto;
-    max-height: none;
+    height:1617px;
     display: flex;
     flex-direction: column;
 }
@@ -455,9 +453,7 @@ body{
 #site-footer{
     background-color: var(--head-foot-bg);
     width: 100vw;
-    min-height: 709px;
-    height: auto;
-    max-height: none;
+    height: 709px;
     display: flex;
     justify-content: center;
     align-items: center;
