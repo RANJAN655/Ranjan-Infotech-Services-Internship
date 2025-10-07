@@ -465,7 +465,9 @@ body{
 }
 #services{
     width: 87.15vw;
-    height:84.63%;
+    min-height:84.63%;
+    max-height: none;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
